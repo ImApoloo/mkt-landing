@@ -1,0 +1,55 @@
+---
+import SpeakerPhone from '@/components/SpeakerPhone.astro';
+import Email from '@/components/Email.astro';
+---
+
+<div class="max-w-screen-md mb-8 lg:mb-1 mx-auto pb-5 pt-5 animate-blurred-fade-in" id="Servicios">
+    <h2 class="text-center mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Servicios</h2>
+    <h3 class="text-center mb-4 text-2xl tracking-tight font-extrabold text-primary-700 dark:text-white ">Somos profesionales en marketing digital</h3>
+    <p class="text-center text-gray-500 sm:text-xl dark:text-gray-400">No importa lo que esté buscando, podemos crear una <br> solución personalizada para su empresa.</p>
+</div>
+
+<div class="flex-wrap items-center justify-center gap-8 text-center sm:flex animate-blurred-fade-in">
+    <div class="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
+        <div class="flex-shrink-0">
+            <div class="flex items-center justify-center w-12 h-12 mx-auto text-white bg-primary-700 rounded-md">
+                <SpeakerPhone />
+            </div>
+        </div>
+        <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
+            Redes Sociales
+        </h3>
+        <p class="py-4 text-gray-500 text-md dark:text-gray-300">
+            Realizamos conciencia de marca en las principales redes sociales a través de publicidad orgánica.
+        </p>
+    </div>
+    <div class="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 sm:mt-16 md:mt-20 lg:mt-24 dark:bg-gray-800">
+        <div class="flex-shrink-0">
+            <div class="flex items-center justify-center w-12 h-12 mx-auto text-white bg-pink-600 rounded-md">
+                <Email />
+            </div>
+        </div>
+        <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
+            Email Marketing
+        </h3>
+        <p class="py-4 text-gray-500 text-md dark:text-gray-300">
+            Convertimos clientes potenciales en valiosos compradores a través de sus correos electrónicos.
+        </p>
+    </div>
+    <div class="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
+        <div class="flex-shrink-0">
+            <div class="flex items-center justify-center w-12 h-12 mx-auto text-white bg-yellow-400 rounded-md">
+                <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
+            Copywriting
+        </h3>
+        <p class="py-4 text-gray-500 text-md dark:text-gray-300">
+            Obtenga contenido redactado por profesionales que atraigan a personas ideales a su empresa.
+        </p>
+    </div>
+</div>
