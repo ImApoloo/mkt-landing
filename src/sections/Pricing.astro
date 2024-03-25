@@ -1,28 +1,37 @@
+---
+import InstagramIcon from '@/components/InstagramIcon.astro';
+import FacebookIcon from '@/components/FacebookIcon.astro';
+import PlusIcon from '@/components/PlusIcon.astro';
+import GoogleIcon from '@/components/GoogleIcon.astro';
+import WhatsappIcon from '@/components/WhatsappIcon.astro';
+---
+
 <div class="max-w-screen-md lg:mb-1 mx-auto animate-blurred-fade-in pt-20" id="Precios">
-    <h2 class="text-center mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Precios</h2>
-    <h3 class="text-center mb-4 text-2xl tracking-tight font-extrabold text-primary-700 dark:text-white ">We're digital marketing pro</h3>
-    <p class="text-center text-gray-500 sm:text-xl dark:text-gray-400">No matter what you're looking for, we can create <br> a custom solution for your business.</p>
+    <h2 class="text-center mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-slate-400">Precios</h2>
+    <h3 class="text-center mb-4 text-2xl tracking-tight font-extrabold text-orange-500 dark:text-slate-400 ">¡Tenemos un plan que se ajusta a ti!</h3>
+    <p class="text-center text-gray-500 sm:text-xl dark:text-slate-400">Ofrecemos una variedad de planes de precios flexibles diseñados para adaptarse a las necesidades de tu negocio.</p>
+    <p class="text-center text-gray-500 sm:text-xs dark:text-slate-400 pt-5">*Todos nuestros planes incluyen la creación, seguimiento y optimización de campañas publicitarias en Facebook [No incluye inversión]*</p>
 </div>
 
 <div class="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 animate-blurred-fade-in">
     <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-3 md:gap-8">
-      <div class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm bg-white">
+      <div class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm bg-white dark:bg-gray-800">
         <div class="p-6 sm:px-8">
-          <h2 class="text-lg font-medium text-gray-900">
-            Starter
+          <h2 class="text-lg font-medium text-gray-900 dark:text-slate-400">
+            Basic
             <span class="sr-only">Plan</span>
           </h2>
-  
-          <p class="mt-2 text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-  
+          
+            <p class="mt-2 text-gray-700 dark:text-slate-400"><InstagramIcon/> <PlusIcon/> <FacebookIcon/></p>
+          
           <p class="mt-2 sm:mt-4">
-            <strong class="text-3xl font-bold text-gray-900 sm:text-4xl"> 20$ </strong>
+            <strong class="text-3xl font-bold text-gray-900 sm:text-4xl dark:text-slate-400"> $2,900 </strong>
   
-            <span class="text-sm font-medium text-gray-700">/month</span>
+            <span class="text-sm font-medium text-gray-700 dark:text-slate-400">/mes</span>
           </p>
   
           <a
-            class="mt-4 block rounded border border-primary-700 bg-primary-700 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-primary-700 focus:outline-none focus:ring active:text-primary-500 sm:mt-6"
+            class="mt-4 block rounded border border-orange-500 bg-orange-500 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-orange-500 focus:outline-none focus:ring active:text-orange-500 sm:mt-6"
             href="#"
           >
             Get Started
@@ -30,7 +39,7 @@
         </div>
   
         <div class="p-6 sm:px-8">
-          <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+          <p class="text-lg font-medium text-gray-900 sm:text-xl dark:text-slate-400">Está incluido:</p>
   
           <ul class="mt-2 space-y-2 sm:mt-4">
             <li class="flex items-center gap-1">
@@ -45,7 +54,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
   
-              <span class="text-gray-700"> 10 users </span>
+              <span class="text-gray-700 dark:text-slate-400"> Community Manager </span>
             </li>
   
             <li class="flex items-center gap-1">
@@ -60,7 +69,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
   
-              <span class="text-gray-700"> 2GB of storage </span>
+              <span class="text-gray-700 dark:text-slate-400"> Creación de contenido </span>
             </li>
   
             <li class="flex items-center gap-1">
@@ -75,7 +84,22 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
   
-              <span class="text-gray-700"> Email support </span>
+              <span class="text-gray-700 dark:text-slate-400"> Interacción con usuarios </span>
+            </li>
+  
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-green-600"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+  
+              <span class="text-gray-700 dark:text-slate-400"> Respuestas a DM's </span>
             </li>
   
             <li class="flex items-center gap-1">
@@ -90,7 +114,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
               </svg>
   
-              <span class="text-gray-700"> Help center access </span>
+              <span class="text-gray-700 dark:text-slate-400"> Servicios multimedia </span>
             </li>
   
             <li class="flex items-center gap-1">
@@ -105,9 +129,8 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
               </svg>
   
-              <span class="text-gray-700"> Phone support </span>
+              <span class="text-gray-700 dark:text-slate-400"> Dinámicas con usuarios </span>
             </li>
-  
             <li class="flex items-center gap-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -120,29 +143,104 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
               </svg>
   
-              <span class="text-gray-700"> Community access </span>
+              <span class="text-gray-700 dark:text-slate-400"> Livestreams </span>
+            </li>
+
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-red-700"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+  
+              <span class="text-gray-700 dark:text-slate-400"> Informes detallados </span>
+            </li>
+
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-red-700"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+  
+              <span class="text-gray-700 dark:text-slate-400"> Gestión de influencers </span>
+            </li>
+
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-red-700"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+  
+              <span class="text-gray-700 dark:text-slate-400"> Optimización de SEO </span>
+            </li>
+
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-red-700"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+  
+              <span class="text-gray-700 dark:text-slate-400"> Email marketing </span>
+            </li>
+
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-red-700"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+  
+              <span class="text-gray-700 dark:text-slate-400"> Diseños avanzados </span>
             </li>
           </ul>
         </div>
       </div>
   
-      <div class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm bg-white">
+      <div class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm bg-white dark:bg-gray-800">
         <div class="p-6 sm:px-8">
           <h2 class="text-lg font-medium text-gray-900">
-            Pro
+            Medium
             <span class="sr-only">Plan</span>
           </h2>
   
-          <p class="mt-2 text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="mt-2 text-gray-700"><InstagramIcon/> <PlusIcon/> <FacebookIcon/> <PlusIcon/> <WhatsappIcon/></p>
   
           <p class="mt-2 sm:mt-4">
-            <strong class="text-3xl font-bold text-gray-900 sm:text-4xl"> 30$ </strong>
+            <strong class="text-3xl font-bold text-gray-900 sm:text-4xl"> $3,900 </strong>
   
-            <span class="text-sm font-medium text-gray-700">/month</span>
+            <span class="text-sm font-medium text-gray-700">/mes</span>
           </p>
   
           <a
-            class="mt-4 block rounded border border-pink-700 bg-pink-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-pink-600 focus:outline-none focus:ring active:text-pink-600 sm:mt-6"
+            class="mt-4 block rounded border border-orange-00 bg-primary-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-primary-600 focus:outline-none focus:ring active:text-primary-600 sm:mt-6"
             href="#"
           >
             Get Started
@@ -150,7 +248,7 @@
         </div>
   
         <div class="p-6 sm:px-8">
-          <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+          <p class="text-lg font-medium text-gray-900 sm:text-xl dark:text-slate-400">Está incluido:</p>
   
           <ul class="mt-2 space-y-2 sm:mt-4">
             <li class="flex items-center gap-1">
@@ -165,7 +263,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
   
-              <span class="text-gray-700"> 20 users </span>
+              <span class="text-gray-700"> Community Manager </span>
             </li>
   
             <li class="flex items-center gap-1">
@@ -180,7 +278,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
   
-              <span class="text-gray-700"> 5GB of storage </span>
+              <span class="text-gray-700"> Creación de contenido </span>
             </li>
   
             <li class="flex items-center gap-1">
@@ -195,7 +293,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
   
-              <span class="text-gray-700"> Email support </span>
+              <span class="text-gray-700"> Interacción con usuarios </span>
             </li>
   
             <li class="flex items-center gap-1">
@@ -210,7 +308,37 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
   
-              <span class="text-gray-700"> Help center access </span>
+              <span class="text-gray-700"> Respuestas a DM's </span>
+            </li>
+
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-green-600"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+  
+              <span class="text-gray-700"> Servicios multimedia </span>
+            </li>
+            
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-green-600"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+  
+              <span class="text-gray-700"> Dinámicas con usuarios </span>
             </li>
   
             <li class="flex items-center gap-1">
@@ -225,7 +353,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
               </svg>
   
-              <span class="text-gray-700"> Phone support </span>
+              <span class="text-gray-700"> Livestreams </span>
             </li>
   
             <li class="flex items-center gap-1">
@@ -240,25 +368,85 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
               </svg>
   
-              <span class="text-gray-700"> Community access </span>
+              <span class="text-gray-700"> Informes detallados </span>
+            </li>
+
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-red-700"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+  
+              <span class="text-gray-700"> Gestión de influencers </span>
+            </li>
+
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-red-700"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+  
+              <span class="text-gray-700"> Optimización de SEO </span>
+            </li>
+
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-red-700"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+  
+              <span class="text-gray-700"> Email marketing </span>
+            </li>
+
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-red-700"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+  
+              <span class="text-gray-700"> Diseños avanzados </span>
             </li>
           </ul>
         </div>
       </div>
   
-      <div class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm bg-white">
+      <div class="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm bg-white dark:bg-gray-800">
         <div class="p-6 sm:px-8">
           <h2 class="text-lg font-medium text-gray-900">
-            Enterprise
+            Premium
             <span class="sr-only">Plan</span>
           </h2>
   
-          <p class="mt-2 text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="mt-2 text-gray-700"><InstagramIcon/> <PlusIcon/> <FacebookIcon/> <PlusIcon/> <WhatsappIcon/> <PlusIcon/> <GoogleIcon/></p>
   
           <p class="mt-2 sm:mt-4">
-            <strong class="text-3xl font-bold text-gray-900 sm:text-4xl"> 100$ </strong>
+            <strong class="text-3xl font-bold text-gray-900 sm:text-4xl"> $5,000 </strong>
   
-            <span class="text-sm font-medium text-gray-700">/month</span>
+            <span class="text-sm font-medium text-gray-700">/mes</span>
           </p>
   
           <a
@@ -270,7 +458,7 @@
         </div>
   
         <div class="p-6 sm:px-8">
-          <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+          <p class="text-lg font-medium text-gray-900 sm:text-xl">Está incluido:</p>
   
           <ul class="mt-2 space-y-2 sm:mt-4">
             <li class="flex items-center gap-1">
@@ -285,7 +473,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
   
-              <span class="text-gray-700"> 50 users </span>
+              <span class="text-gray-700"> Community Manager </span>
             </li>
   
             <li class="flex items-center gap-1">
@@ -300,7 +488,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
   
-              <span class="text-gray-700"> 20GB of storage </span>
+              <span class="text-gray-700"> Creación de contenido </span>
             </li>
   
             <li class="flex items-center gap-1">
@@ -315,7 +503,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
   
-              <span class="text-gray-700"> Email support </span>
+              <span class="text-gray-700"> Interacción con usuarios </span>
             </li>
   
             <li class="flex items-center gap-1">
@@ -330,7 +518,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
   
-              <span class="text-gray-700"> Help center access </span>
+              <span class="text-gray-700"> Respuestas a DM's </span>
             </li>
   
             <li class="flex items-center gap-1">
@@ -345,7 +533,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
   
-              <span class="text-gray-700"> Phone support </span>
+              <span class="text-gray-700"> Servicios multimedia </span>
             </li>
   
             <li class="flex items-center gap-1">
@@ -360,8 +548,99 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
   
-              <span class="text-gray-700"> Community access </span>
+              <span class="text-gray-700"> Dinámicas con usuarios </span>
             </li>
+
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-green-600"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+  
+              <span class="text-gray-700"> Livestreams </span>
+            </li>
+
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-green-600"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+  
+              <span class="text-gray-700"> Informes detallados </span>
+            </li>
+
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-green-600"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+  
+              <span class="text-gray-700"> Gestión de influencers </span>
+            </li>
+
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-green-600"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+  
+              <span class="text-gray-700"> Optimización de SEO </span>
+            </li>
+
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-green-600"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+  
+              <span class="text-gray-700"> Email marketing </span>
+            </li>
+
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 text-green-600"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+  
+              <span class="text-gray-700"> Diseños avanzados </span>
+            </li>
+
           </ul>
         </div>
       </div>
